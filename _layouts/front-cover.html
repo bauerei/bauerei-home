@@ -1,6 +1,3 @@
----
-permalink: /
----
 <!DOCTYPE html>
 <html>
     <head>
@@ -9,7 +6,7 @@ permalink: /
         <title>{% if page.title %}{{ page.title }}{% else %}{{ page.title }}{% endif %}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="{{ page.description }}">
-        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: page.baseurl | prepend: page.url }}">
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         {% if page.favicon_img %}
         <link rel="shortcut icon" href="{{ page.favicon_img_path }}" />
         {% else %}
