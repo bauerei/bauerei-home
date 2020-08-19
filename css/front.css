@@ -17,6 +17,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    object-fit: cover;
 }
 #avatar {
     height: 180px;
@@ -31,6 +32,16 @@ h1 {
     font-size: 4em;
     font-family: 'Open Sans';
     margin: -10px 0;
+}
+@media screen and (max-width: 47em) {
+    h1 {
+        color: white;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        font-size: 3em;
+        font-family: 'Open Sans';
+        margin: -10px 0;
+    }
 }
 h3 {
     color: white;
