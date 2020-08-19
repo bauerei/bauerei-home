@@ -12,6 +12,8 @@ permalink: /
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: page.baseurl | prepend: page.url }}">
         {% if page.favicon_img %}
         <link rel="shortcut icon" href="{{ page.favicon_img_path }}" />
+        {% else %}
+        <link rel="shortcut icon" href="#" />
         {% endif %}
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: page.baseurl }}">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
