@@ -10,6 +10,7 @@ description: Polymorphic Software Developer. Besides being in IT, also worked at
 # Delete the lines you don't need
 # about 5 elements are recomended
 github_username:  bauerei
+gitlab_username: bauerei
 email: konstantin@bauerei.dev
 
 
