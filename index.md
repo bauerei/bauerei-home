@@ -4,13 +4,12 @@ title: Konstantin Bauer | Home
 
 # Site settings
 full_name: Konstantin Bauer
-description: Polymorphic Software Developer. Besides being in IT, also worked at a farm, carpentry and hospital
-
 
 # Delete the lines you don't need
 # about 5 elements are recomended
 github_username:  bauerei
 gitlab_username: bauerei
+stack_of_username: 21345156
 email: konstantin@bauerei.dev
 
 
